@@ -10,6 +10,8 @@ You will need [Sencha Cmd](http://www.sencha.com/products/sencha-cmd/).
 
 ### Create Workspace
 
+Use or create a local folder for the project. Use the terminal and run the commands to create your workspace.
+
 ```
 sencha generate workspace -ext ext-seed-workspace
 cd ext-seed-workspace

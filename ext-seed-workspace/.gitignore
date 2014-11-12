@@ -1,3 +1,6 @@
+# ext sdk
+ext/
+
 # build directory for Sencha (ExtJS) projects
 build/
 
