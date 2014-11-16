@@ -56,7 +56,7 @@ Note: serving the app using 'sencha app watch' enables automatic app rebuild whe
 
 We are going to use Node JS, Jasmine and Karma to create unit testing for the Ext Seed app.
 
-#### 4.1 Create 'package.json'
+#### 4.1 Create 'package.json' for Node JS
 
 ```
 cd ext-seed-app
@@ -83,7 +83,7 @@ package.json
 }
 ```
 
-#### 4.2 Install the modules
+#### 4.2 Install Node JS modules
 
 Run the following to install the node js modules.
 
