@@ -49,3 +49,5 @@ Browse the ExtSeedApp in a browser using: http://localhost:1841/ext-seed-app/ or
 ```
 open http://localhost:1841/ext-seed-app/
 ```
+
+Note: serving the app using 'sencha app watch' enables automatic app rebuild when the source code is updated. This could be very handy for development.
