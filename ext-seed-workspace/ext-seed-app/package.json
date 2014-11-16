@@ -1,0 +1,16 @@
+{
+    "name": "ext-seed-testing",
+    "private": true,
+    "version": "0.0.0",
+    "description": "Jasmine Unit Testing",
+    "devDependencies": {
+        "phantomjs": "~1.9.11",
+        "karma": "~0.12.24",
+        "karma-cli": "~0.0.4",
+        "karma-jasmine": "~0.2.2",
+        "karma-coverage": "~0.2.6",
+        "karma-html-reporter": "~0.2.4",
+        "karma-phantomjs-launcher": "~0.1.4",
+        "karma-chrome-launcher": "~0.1.4"
+    }
+}
