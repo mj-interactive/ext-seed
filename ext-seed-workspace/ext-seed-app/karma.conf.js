@@ -19,7 +19,20 @@ module.exports = function(config){
 
         frameworks: ['jasmine'],
 
-        browsers : ['Chrome', 'Firefox', 'Safari', 'PhantomJS'],
+        browsers : [
+            // 'Chrome',
+            'Chrome_without_security',  
+            // 'Firefox', 
+            // 'Safari', 
+            // 'PhantomJS', 
+        ],
+
+        customLaunchers: {
+            'Chrome_without_security': {
+                base: 'Chrome',
+                flags: ['--disable-web-security']
+            }
+        },
 
         plugins : [
             'karma-chrome-launcher',
