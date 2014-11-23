@@ -39,10 +39,14 @@ module.exports = function(config){
             'karma-jasmine',
             'karma-firefox-launcher',
             'karma-safari-launcher',
-            'karma-phantomjs-launcher'
+            'karma-phantomjs-launcher',
+            'karma-coverage'
         ],
 
-        reporters: ['progress']
+        reporters: ['progress', 'coverage'],
+        preprocessors: {
+            'app/**/*.js': ['coverage']
+        }
 
     });
 };
