@@ -20,8 +20,8 @@ module.exports = function(config){
         frameworks: ['jasmine'],
 
         browsers : [
-            // 'Chrome',
-            'Chrome_without_security',  
+            'Chrome',
+            // 'Chrome_without_security',  
             // 'Firefox', 
             // 'Safari', 
             // 'PhantomJS', 
