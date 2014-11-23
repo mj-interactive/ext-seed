@@ -93,3 +93,18 @@ npm install
 ```
 Note: add 'node_modules' to your .gitignore if you haven't.
 
+#### 4.3 Create the Jasmine specs
+
+Create `"spec"` folder and add the specs.
+
+```
+cd ext-seed-app
+mkdir spec
+```
+
+#### 4.4 Run the tests
+
+```
+cd ext-seed-app
+npm test
+```

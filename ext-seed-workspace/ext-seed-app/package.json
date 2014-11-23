@@ -11,6 +11,14 @@
         "karma-coverage": "~0.2.6",
         "karma-html-reporter": "~0.2.4",
         "karma-phantomjs-launcher": "~0.1.4",
-        "karma-chrome-launcher": "~0.1.4"
+        "karma-chrome-launcher": "~0.1.4",
+        "karma-firefox-launcher": "~0.1",
+        "karma-safari-launcher": "~0.1",
+        "karma-junit-reporter": "^0.2.2",
+        "karma-coverage": "~0.1"
+    },
+    "scripts": {
+        "pretest": "npm install",
+        "test": "karma start karma.conf.js"
     }
 }
