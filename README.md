@@ -1,14 +1,12 @@
-# Ext Seed Project - a seed project for Ext JS 5 apps
+# Ext Seed Project - Ext JS 5 + Unit Testing
 
 This project is an application skeleton for a typical [Ext JS](http://www.sencha.com/products/extjs/) web app.
 
-## Goals of the Ext Seed project
+## Features
 
-Build an Ext seed project step-by-step through Test Driven Development (TDD) and the best practice. 
-
-1. Create Ext Seed workspace (DONE)
-2. Create Ext Seed app (DONE)
-3. Run Ext Seed app (DONE)
+1. Create Ext Seed workspace
+2. Create Ext Seed app
+3. Run Ext Seed app
 4. Add Unit Testing Frameworks
 
 ## Prerequisites
