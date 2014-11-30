@@ -1,7 +1,9 @@
 ext
 .sencha
 .architect
-build
+/ext-seed-workspace/build/.sacc-cache
+/ext-seed-workspace/build/development/
+/ext-seed-workspace/build/temp/
 node_modules
 coverage
 
